@@ -1,0 +1,713 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*----------Header - Start----------*/
+header{
+	
+	display: block;
+	background-color: white;
+	width: 100%;
+	height: 120px;
+	position:fixed;
+	z-index:1;
+	
+
+}
+header a img{
+	margin-left: 60px;
+    margin-top: 23px;
+}
+
+.header #img_logo{
+	
+	float:left;
+	margin-top:25px;
+	margin-left:80px;
+	
+}
+
+.header #img_logo{
+	
+	cursor:pointer;
+	
+}
+
+.header .list{
+
+	float:right;
+	list-style:none;
+	color:#FFFFFF;
+	height:100%;
+	padding-right:80px;
+	padding-top:34px;
+	
+}
+
+.header .list li{
+	
+	float:left;
+	height:100%;
+	padding-top:17.5px;
+
+}
+
+.header .list li a{
+	
+	display: table-cell;
+	width:100%;
+	vertical-align:middle;
+	padding-right:25px;
+	text-align:left;
+	color:black;
+	font-family:'Roboto',sans-serif;
+	font-size:18px;
+	letter-spacing:0.5px;
+	
+	
+}
+
+.header .list li a:hover{
+	
+	cursor:pointer;
+	transform:scale(1.05);
+	
+}
+.header .list li p{
+	
+	display: table-cell;
+	width:100%;
+	vertical-align:middle;
+	padding-right:25px;
+	text-align:left;
+	color:#FFFFFF;
+	font-family:'Roboto',sans-serif;
+	font-size:18px;
+	letter-spacing:0.5px;
+	
+}
+.header .list li a #img_menu{
+	
+	padding-left:40px;
+	padding-top:1px;
+	
+}
+
+.header #contact_btn{
+    
+    background-color: #F92524;
+    border: none;
+    border-radius: 4px;
+    height: 58px;
+	width:187px;
+	font-family:'Roboto',sans-serif;
+    font-size: 16px;
+	color:#FFFFFF;
+	letter-spacing:0.45px;
+	text-align:center;
+	margin:auto;   
+}
+
+#contact_btn:hover{
+	
+	cursor:pointer;
+
+}
+
+/*----------Header - End----------*/
+
+/*-------------- Blank Section - Start-------------*/
+
+.blank{
+	
+	width:100%;
+	height:120px;
+}
+
+/*-------------- Blank Section - End-------------*/
+
+/*-------------- Banner Section - Start-------------*/
+
+.highspeed{
+	
+	display: block;
+    width: 100%;
+    height: auto;
+    background-image: url(../images1/banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_highspeed{
+	
+	display:block;
+	width:1366px;
+	margin:0 auto;
+}
+
+.highspeed_inn{
+	display:block;
+	padding: 0px 0px 0px 0px;
+}
+
+.highspeed_inn .highspeed_left{
+	
+	display:block;
+	width:50%;
+}
+
+.highspeed_inn .highspeed_right{
+	
+	margin-top: -23px;
+}
+
+.highspeed_inn h2{
+	
+	float:left;
+	padding-top:100px;
+	font-size: 40px;
+	font: normal normal 300 40px/62px Poppins;
+    color: #fff;
+}
+
+.highspeed_inn p{
+	
+	float:left;
+	margin-right:140px;
+	padding-top:30px;
+	font-size: 22px;
+    font: normal normal 300 16px/28px Poppins;
+    color: #fff;
+}
+
+#fxfx{
+
+	display: inline-block;
+	padding-top:30px;
+}
+
+
+.highspeed_left  #join_btn{  
+    background-color: #F92524;
+    border: none;
+    border-radius: 4px;
+    height: 58px;
+	width:187px;
+	
+	font-family:'Roboto',sans-serif;
+    font-size: 16px;
+	color:#FFFFFF;
+	letter-spacing:0.45px;
+	text-align:center;
+	    
+}
+
+/*-------------- Banner Section - End-------------*/
+
+/*-------------- Story Section - Start-------------*/
+
+.parent {
+        display: block;
+		width: 100%;
+		height: auto;
+}
+
+.text-block {
+        position: relative;
+        bottom: 547px;
+        left: 23px;
+        background-color: #F92524;
+        opacity: .6;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+		width: 334px;
+		height: 497px;
+		text-align:center;
+		font-family: 'Poppins', sans-serif;
+                                                
+}
+
+.parent img {
+}
+
+.text-block h3{
+		padding-top: 35px;
+		padding-bottom: 25px;
+		font-size: 24px;
+}
+
+.text-block p{
+		padding-left:30px;
+		padding-right:30px;
+}	
+
+.text-block #readm_btn{
+		background-color: white;
+		border: none;
+		border-radius: 4px;
+		height: 58px;
+		width:187px;
+		font-family:'Roboto',sans-serif;
+		font-size: 16px;
+		color:red;
+		letter-spacing:0.45px;
+		text-align:center;
+		margin-top:180px;
+}
+
+.container{
+	 display: block;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.left{
+	float:left;
+	width:50%;
+	height:600px;
+}
+
+p#fxfx {
+    padding-top: 40px;
+	font: normal normal bold 25px/50px Poppins
+}
+
+.right h1{
+	padding-bottom:20px;
+	font: normal normal bold 40px/60px Poppins;
+}
+
+.right p{
+	font: normal normal 300 16px/25px Poppins;
+}
+
+.box1 {
+    height: 106px;
+    width: 106px;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-top: 41px;
+}
+
+/*-------------- Story Section - End-------------*/
+
+/*-------------- Our Class Section - Start-------------*/
+
+.ourclass{
+	display: block;
+	width: 100%;
+	height: auto;
+	background-color: #F1F1F1;
+}
+
+.container_ourclass{
+	display: block;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.ourclass_in{
+	background-color:#F1F1F1;
+}
+
+.ourclass_header{
+	display: block;
+	background-color:
+	width: 100%;
+	height: 120px;
+}
+	
+.ourclass_header a h1{
+	padding-top:40px;
+	font: normal normal bold 40px/50px Poppins;
+}
+
+.ourclass_header .list1{
+
+	float:right;
+	list-style:none;
+	color:#FFFFFF;
+	height:100%;
+	padding-right:80px;
+	margin-top:-55px;
+	font: normal normal bold 20px Poppins;
+	
+}
+
+.ourclass_header .list1 li{
+	
+	float:left;
+	height:100%;
+	padding-top:17.5px;
+
+}
+
+.ourclass_header .list1 li a{
+	
+	display: table-cell;
+	width:100%;
+	vertical-align:middle;
+	padding-right:25px;
+	text-align:left;
+	color:black;
+	font-family:'Roboto',sans-serif;
+	font-size:18px;
+	letter-spacing:0.5px;
+	
+}
+
+.ourclass_header .list1 li a:hover{
+	
+	cursor:pointer;
+	transform:scale(1.05);
+	
+}
+
+.ourclass_in p{
+	font: normal normal 300 16px/25px Poppins;
+    color: #7A839E;
+}
+
+.posters{
+	padding-top:100px;
+}
+
+.posters img{
+	border-radius: 60px 0 60px 0;
+    padding: 30px 16px;
+}
+
+.posters #side-crop{
+
+}
+
+/*-------------- Our Class Section - End-------------*/
+
+/*-------------- Pricing Section Start----------*/
+
+.card{
+	background-color:#006C9D;
+	width:100%;
+	height:auto;
+}
+
+.container3{
+	width:1080px;
+	margin:0 auto;
+}
+ 
+.card_inn{
+
+	display:block;
+	padding-top:100px;
+	text-align:center;
+}
+
+.card_inn table{
+	
+	display: block;
+    	border-spacing: 28px;
+    	padding-bottom: 100px;
+	font-family: 'Roboto Light', sans-serif;
+}
+
+.card_inn table td{
+	border-radius:10px;
+	border: 2px solid #CCCCCC;
+	background-color:white;
+}
+
+td{
+  	padding:10px ;
+}
+
+.card_inn table h3{
+	padding-top:30px;
+	padding-bottom: 20px;
+	font-size:25px;
+}
+
+.card_inn table p{
+	font: normal normal 300 16px/28px Poppins;
+	color:#7A839E;
+}
+.card_inn table h4{
+	padding-top:90px;
+	padding-bottom:20px;
+	color:#000000;
+	font-size:25px;
+}
+
+.card_inn table #get_btn{
+	background-color: white;
+    border-radius: 4px;
+    height: 58px;
+	width:187px;
+	font-family:'Roboto',sans-serif;
+    font-size: 16px;
+	color:#000000;
+	letter-spacing:0.45px;
+	text-align:center;
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card_inn table #get_btn2{
+	 background-color: #F92524;
+    border: none;
+    border-radius: 4px;
+    height: 58px;
+	width:187px;
+	font-family:'Roboto',sans-serif;
+    font-size: 16px;
+	color:#FFFFFF;
+	letter-spacing:0.45px;
+	text-align:center;
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*-------------- Pricing Section Ends----------*/
+
+/*-------------- Message Box Starts----------*/
+.wrapper1{
+  	width: 100%;
+  	height: auto;
+  	display:block;
+}
+
+.containermg{
+	width: 1080px;
+  	margin: 0 auto;
+}
+
+.msginner{
+		padding-top: 100px;
+    	width: 1080px;
+    	margin: 0 auto;
+}
+
+.msginner table td{
+	padding:20px;
+}
+.wrapper1 h1{
+  	font: normal normal bold 40px/50px Poppins;
+  	padding-left: 10px;
+  	padding-bottom: 30px;
+  	font-size:32px;
+	text-align:center;
+}
+
+.input-box{
+    	width: 594px;
+    	margin-right: 12px;
+    	position: relative;
+		margin-top:5px;
+}
+
+
+.name{
+    padding: 10px 10px 12px 20px;
+    width: 70%;
+    border: 1px solid #151D41;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: #333;
+    box-shadow: inset 0 1px 1px 0 #0000001a;
+}
+
+.name1{
+    	padding: 15px 0px 20px 15px;
+		width: 182%;
+		border: 1px solid #151D41;
+		outline: none;
+		letter-spacing: 1px;
+		transition: 0.3s;
+		border-radius: 3px;
+		color: #333;
+		box-shadow: inset 0 1px 1px 0 #0000001a;
+		margin-left: 21px;
+		margin-top:20px;
+}
+
+textarea{
+    	height: 125px;
+}
+
+.button-box{
+    	padding-left: 10px;
+		text-align:center;
+		padding-top:20px;
+  
+}
+button{
+    	background: #FF4131;
+    	border: 0px solid #0098DA;
+    	color: #fff;
+    	height: 50px;
+    	cursor: pointer;
+    	border-radius: 3px;
+    	letter-spacing: 1px;
+    	width: auto;
+    	margin-top:20px;
+    	margin-bottom:20px;
+    	padding-left:20px;
+    	padding-right:20px;
+    	font-size: 18px;
+}
+
+
+/*-------------- Message Box Ends----------*/
+
+/*-------------- Peoples Section Start----------*/
+
+
+.card1{
+	width:100%;
+	height:auto;
+}
+
+.container4{
+	width: 1080px;
+  	margin: 0 auto;
+}
+
+.card1_inn{
+	padding-top: 100px;
+    	width: 1080px;
+    	margin: 0 auto;
+}
+
+.card1_inn h2{
+	font: normal normal bold 40px Poppins;
+	padding-bottom:30px;
+}
+
+.card1_inn p{
+	font: normal normal 300 16px/25px Poppins;
+	color: #7A839E;
+}
+
+.card1_inn .center p img{
+  	border-radius: 50%;
+    margin-top: -50px;
+  
+}
+.card1_inn table h3{
+  
+  	margin-top:30px;
+  	padding-bottom:20px;
+  	font-family: 'Roboto Light', sans-serif;
+}
+
+.card1_inn table h3 img{
+	padding-right:5px;
+}
+
+.card1_inn table p1{
+	font: normal normal 300 16px/35px Poppins;
+	color: #7A839E;
+}
+
+.card1_inn table h1{
+	padding-top: 45px;
+    font: normal normal 600 20px/30px Poppins;
+}
+
+.card1_inn table p2{
+	font: normal normal 300 20px/30px Poppins;
+	color: #7A839E;
+}
+
+.card1_inn .center {
+  	margin-left:-45px;
+  	margin-right: auto;
+	padding-top:100px;
+}
+
+.parallelogram1 {
+	width: 550px;
+    height: 382px;
+    background-color: white;
+    padding: 0 30px;
+    box-shadow: 0px 3px 20px #00000017;
+}
+.parallelogram2 {
+	width: 550px;
+    height: 382px;
+    background-color: white;
+    padding: 0 30px;
+    box-shadow: 0px 3px 20px #00000017;
+}
+
+
+/*-------------- Peoples Section Ends----------*/
+
+
+/*-------------- Footer Section Start----------*/
+
+footer{
+	
+	background-color:#F92524;
+	width:100%;
+	height:auto;
+	
+}
+
+.foot{
+	display: block;
+	width: 100%;
+	height: 80px;
+}
+	
+
+.foot a p{
+	padding-top:30px;
+	padding-left:60px;
+	font: normal normal 300 18px/20px Poppins;
+	color: #F6F7FB;
+}
+.foot .list1{
+
+	float:right;
+	list-style:none;
+	color:#FFFFFF;
+	height:100%;
+	padding-right:80px;
+	margin-top:-45px;
+	font: normal normal bold 20px Poppins;
+	
+}
+
+.foot .list1 li{
+	
+	float:left;
+	height:100%;
+	padding-top:17.5px;
+
+}
+
+
+.foot .list1 li img{
+	margin:8px;
+}
+
+.foot .list1 li a:hover{
+	
+	cursor:pointer;
+	transform:scale(1.05);
+	
+}
+#box{
+	height: 32px;
+	width: 32px;
+	background-color: white;
+	margin-right:20px;
+}
+	
+
+/*-------------- Footer Section End----------*/
