@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 /*----------Header - Start----------*/
 header{
 	
@@ -11,12 +12,11 @@ header{
 	height: 120px;
 	position:fixed;
 	z-index:1;
-	
-
 }
+
 header a img{
 	margin-left: 60px;
-    margin-top: 23px;
+    	margin-top: 23px;
 }
 
 .header #img_logo{
@@ -54,13 +54,12 @@ header a img{
 
 .header .list li a{
 	
-	display: table-cell;
 	width:100%;
 	vertical-align:middle;
 	padding-right:25px;
 	text-align:left;
 	color:black;
-	font-family:'Roboto',sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size:18px;
 	letter-spacing:0.5px;
 	
@@ -73,19 +72,7 @@ header a img{
 	transform:scale(1.05);
 	
 }
-.header .list li p{
-	
-	display: table-cell;
-	width:100%;
-	vertical-align:middle;
-	padding-right:25px;
-	text-align:left;
-	color:#FFFFFF;
-	font-family:'Roboto',sans-serif;
-	font-size:18px;
-	letter-spacing:0.5px;
-	
-}
+
 .header .list li a #img_menu{
 	
 	padding-left:40px;
@@ -100,7 +87,7 @@ header a img{
     border-radius: 4px;
     height: 58px;
 	width:187px;
-	font-family:'Roboto',sans-serif;
+	font-family: 'Poppins', sans-serif;
     font-size: 16px;
 	color:#FFFFFF;
 	letter-spacing:0.45px;
@@ -128,7 +115,7 @@ header a img{
 
 /*-------------- Banner Section - Start-------------*/
 
-.highspeed{
+.bodybuilding{
 	
 	display: block;
     width: 100%;
@@ -138,45 +125,51 @@ header a img{
     background-size: cover;
 }
 
-.container_highspeed{
+.container_bodybuilding{
 	
 	display:block;
 	width:1366px;
 	margin:0 auto;
 }
 
-.highspeed_inn{
+.bodybuilding_inn{
 	display:block;
 	padding: 0px 0px 0px 0px;
 }
 
-.highspeed_inn .highspeed_left{
+.bodybuilding_inn .bodybuilding_left{
 	
 	display:block;
 	width:50%;
 }
 
-.highspeed_inn .highspeed_right{
+.bodybuilding_inn .bodybuilding_right{
 	
 	margin-top: -23px;
 }
 
-.highspeed_inn h2{
+.bodybuilding_inn p1{
 	
 	float:left;
 	padding-top:100px;
 	font-size: 40px;
-	font: normal normal 300 40px/62px Poppins;
+	font-family: 'Poppins', sans-serif;
     color: #fff;
 }
 
-.highspeed_inn p{
+.bodybuilding_inn h1{
+	padding-top: 162px;
+	font-size: 44px;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}   
+.bodybuilding_inn p{
 	
 	float:left;
 	margin-right:140px;
 	padding-top:30px;
 	font-size: 22px;
-    font: normal normal 300 16px/28px Poppins;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
 }
 
@@ -187,14 +180,13 @@ header a img{
 }
 
 
-.highspeed_left  #join_btn{  
+.bodybuilding_left  #join_btn{  
     background-color: #F92524;
     border: none;
     border-radius: 4px;
     height: 58px;
 	width:187px;
-	
-	font-family:'Roboto',sans-serif;
+	font-family: 'Poppins', sans-serif;
     font-size: 16px;
 	color:#FFFFFF;
 	letter-spacing:0.45px;
@@ -248,7 +240,7 @@ header a img{
 		border-radius: 4px;
 		height: 58px;
 		width:187px;
-		font-family:'Roboto',sans-serif;
+		font-family: 'Poppins', sans-serif;
 		font-size: 16px;
 		color:red;
 		letter-spacing:0.45px;
@@ -268,25 +260,32 @@ header a img{
 	height:600px;
 }
 
-p#fxfx {
+h2#fxfx {
     padding-top: 40px;
-	font: normal normal bold 25px/50px Poppins
+	padding-bottom:10px;
+	font-family: 'Poppins', sans-serif;
+	font-size:25px;
 }
 
 .right h1{
 	padding-bottom:20px;
-	font: normal normal bold 40px/60px Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size:40px;
+
 }
 
 .right p{
-	font: normal normal 300 16px/25px Poppins;
+	
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+	padding-bottom:20px;
 }
 
 .box1 {
     height: 106px;
     width: 106px;
     background-color: white;
-    border: 2px solid red;
+    border: 3px solid red;
     border-radius: 50%;
     margin-top: 41px;
 }
@@ -321,7 +320,8 @@ p#fxfx {
 	
 .ourclass_header a h1{
 	padding-top:40px;
-	font: normal normal bold 40px/50px Poppins;
+	font-family: 'Poppins', sans-serif;
+    font-size: 40px;
 }
 
 .ourclass_header .list1{
@@ -331,8 +331,10 @@ p#fxfx {
 	color:#FFFFFF;
 	height:100%;
 	padding-right:80px;
-	margin-top:-55px;
-	font: normal normal bold 20px Poppins;
+	margin-top:-95px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+	
 	
 }
 
@@ -344,21 +346,20 @@ p#fxfx {
 
 }
 
-.ourclass_header .list1 li a{
+.ourclass_header .list1 li a h1{
 	
-	display: table-cell;
 	width:100%;
 	vertical-align:middle;
 	padding-right:25px;
 	text-align:left;
 	color:black;
-	font-family:'Roboto',sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size:18px;
 	letter-spacing:0.5px;
 	
 }
 
-.ourclass_header .list1 li a:hover{
+.ourclass_header .list1 li a h1:hover{
 	
 	cursor:pointer;
 	transform:scale(1.05);
@@ -366,12 +367,14 @@ p#fxfx {
 }
 
 .ourclass_in p{
-	font: normal normal 300 16px/25px Poppins;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     color: #7A839E;
+	padding-top: 20px;
 }
 
 .posters{
-	padding-top:100px;
+	padding-top:90px;
 }
 
 .posters img{
@@ -388,7 +391,7 @@ p#fxfx {
 /*-------------- Pricing Section Start----------*/
 
 .card{
-	background-color:#006C9D;
+	background-color:white;
 	width:100%;
 	height:auto;
 }
@@ -405,18 +408,43 @@ p#fxfx {
 	text-align:center;
 }
 
+.card_inn h2{
+	padding-bottom: 20px;
+	margin: 25px auto;
+	font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+	color: black;
+}
+
+.card_inn p{
+	padding-bottom: 20px;
+	margin: 25px auto;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+	color: #7A839E;
+}
+
 .card_inn table{
 	
 	display: block;
-    	border-spacing: 28px;
-    	padding-bottom: 100px;
-	font-family: 'Roboto Light', sans-serif;
+    border-spacing: 28px;
+    padding-bottom: 100px;
+	padding: 17px;margin-left: 0%;
+	font-family: 'Poppins', sans-serif;
 }
 
 .card_inn table td{
 	border-radius:10px;
 	border: 2px solid #CCCCCC;
 	background-color:white;
+}
+
+.card_inn table td img{
+	margin: 20px auto;
+}
+
+.card_inn table td#redborder{
+	border: 3px solid #F92524;
 }
 
 td{
@@ -429,10 +457,7 @@ td{
 	font-size:25px;
 }
 
-.card_inn table p{
-	font: normal normal 300 16px/28px Poppins;
-	color:#7A839E;
-}
+
 .card_inn table h4{
 	padding-top:90px;
 	padding-bottom:20px;
@@ -445,7 +470,7 @@ td{
     border-radius: 4px;
     height: 58px;
 	width:187px;
-	font-family:'Roboto',sans-serif;
+	font-family: 'Poppins', sans-serif;
     font-size: 16px;
 	color:#000000;
 	letter-spacing:0.45px;
@@ -460,7 +485,7 @@ td{
     border-radius: 4px;
     height: 58px;
 	width:187px;
-	font-family:'Roboto',sans-serif;
+	font-family: 'Poppins', sans-serif;
     font-size: 16px;
 	color:#FFFFFF;
 	letter-spacing:0.45px;
@@ -489,14 +514,19 @@ td{
     	margin: 0 auto;
 }
 
+.msginner table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .msginner table td{
 	padding:20px;
 }
 .wrapper1 h1{
-  	font: normal normal bold 40px/50px Poppins;
+  	font-family: 'Poppins', sans-serif;
+    font-size: 40px;
   	padding-left: 10px;
   	padding-bottom: 30px;
-  	font-size:32px;
 	text-align:center;
 }
 
@@ -578,17 +608,19 @@ button{
 
 .card1_inn{
 	padding-top: 100px;
-    	width: 1080px;
-    	margin: 0 auto;
+    width: 1080px;
+    margin: 0 auto;
 }
 
 .card1_inn h2{
-	font: normal normal bold 40px Poppins;
+	font-family: 'Poppins', sans-serif;
+    font-size: 40px;
 	padding-bottom:30px;
 }
 
 .card1_inn p{
-	font: normal normal 300 16px/25px Poppins;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 	color: #7A839E;
 }
 
@@ -597,11 +629,17 @@ button{
     margin-top: -50px;
   
 }
+
+.card1_inn table td{
+	padding: 40px;
+	padding-bottom: 100px;
+}
+
 .card1_inn table h3{
   
   	margin-top:30px;
   	padding-bottom:20px;
-  	font-family: 'Roboto Light', sans-serif;
+  	font-family: 'Poppins', sans-serif;
 }
 
 .card1_inn table h3 img{
@@ -609,17 +647,20 @@ button{
 }
 
 .card1_inn table p1{
-	font: normal normal 300 16px/35px Poppins;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 	color: #7A839E;
 }
 
 .card1_inn table h1{
 	padding-top: 45px;
-    font: normal normal 600 20px/30px Poppins;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
 
 .card1_inn table p2{
-	font: normal normal 300 20px/30px Poppins;
+	font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 	color: #7A839E;
 }
 
@@ -668,7 +709,8 @@ footer{
 .foot a p{
 	padding-top:30px;
 	padding-left:60px;
-	font: normal normal 300 18px/20px Poppins;
+	font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 	color: #F6F7FB;
 }
 .foot .list1{
@@ -679,7 +721,8 @@ footer{
 	height:100%;
 	padding-right:80px;
 	margin-top:-45px;
-	font: normal normal bold 20px Poppins;
+	font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 	
 }
 
@@ -687,7 +730,7 @@ footer{
 	
 	float:left;
 	height:100%;
-	padding-top:17.5px;
+	padding-top:13.5px;
 
 }
 
